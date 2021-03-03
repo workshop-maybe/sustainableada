@@ -7,33 +7,13 @@ module.exports = {
         center: true,
       },
       fontFamily: {
-        'sans': ['Noto Sans', 'ui-sans-serif', 'system-ui'],
+        'sans': ['ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
-        'mono': ['Courier Prime', 'ui-monospace', 'SFMono-Regular'],
-        'title': ['Saira', 'ui-sans-serif', 'system-ui'],
-        'dandelion': ['RocknRoll One', 'ui-sans-serif', 'system-ui'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
       },
-      extend: {
-        zIndex: {
-          '-10': '-10',
-          '-20': '-20',
-         },
-         backgroundImage: theme => ({
-          'tinker' : "url('/tinker.jpeg')",
-          'learn' : "url('/learn.jpeg')",
-          'collab' : "url('/collab.jpeg')",
-          'polygon' : "url('/polygon.png')",
-         })
+      extend: {}
       },
-    },
-    variants: {
-      width: ["responsive", "hover", "focus"],
-      scale: ["responsive", "hover", "focus"],
-      extend: {
-        display: ['hover', 'focus'],
-        boxSizing: ['hover', 'focus'],
-      },
-    },
+    variants: {},
     plugins: [
       require('@tailwindcss/forms'),
     ],

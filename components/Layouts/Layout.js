@@ -1,18 +1,14 @@
 import Nav from '../Nav'
 import Footer from '../Footer'
 
-function Layout({ children }) {
+export default function Layout({ children }) {
     return (
-        <div className="flex flex-col min-h-screen bg-polygon bg-cover w-full">
+        <div className="flex flex-col w-full min-h-screen">
             <Nav />
-            <main className='flex-grow pt-16 mx-auto w-full'>
+            <main className='flex-grow w-full mx-auto pt-16'>
                 {children}
             </main>
             <Footer />    
         </div>
     )
 }
-
-export default Layout
-
-// <img src='/polygon.png' className='fixed min-h-screen w-screen z-0' />
