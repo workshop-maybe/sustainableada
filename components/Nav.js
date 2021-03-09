@@ -17,7 +17,7 @@ export default function Nav() {
             <Link href='/'>
             <a className='inline-flex items-center p-2 mr-4'>
                 <span className='text-xl text-white font-bold uppercase tracking-wide'>
-                Next JS + Tailwind CSS Template
+                Sustainable ADA
                 </span>
             </a>
             </Link>

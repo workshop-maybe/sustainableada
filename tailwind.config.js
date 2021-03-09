@@ -11,7 +11,11 @@ module.exports = {
         'serif': ['ui-serif', 'Georgia'],
         'mono': ['ui-monospace', 'SFMono-Regular'],
       },
-      extend: {}
+      extend: {
+        backgroundImage: theme => ({
+          'panorama': "url('/panorama.jpg')"
+        })
+      }
       },
     variants: {},
     plugins: [
