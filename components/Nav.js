@@ -13,16 +13,16 @@ export default function Nav() {
     };
 
     return (
-        <nav className='flex items-center flex-wrap bg-blue-700 p-3 fixed w-full z-40'>
+        <nav className='flex items-center flex-wrap bg-black-700 p-3 fixed w-full z-40'>
             <Link href='/'>
             <a className='inline-flex items-center p-2 mr-4'>
-                <span className='text-xl text-white font-bold uppercase tracking-wide'>
+                <span className='text-xl text-black font-bold uppercase tracking-wide'>
                 Sustainable ADA
                 </span>
             </a>
             </Link>
             <button 
-                className='inline-flex p-3 hover:bg-blue-300 rounded lg:hidden text-white ml-auto hover:text-white outline-none' 
+                className='inline-flex p-3 hover:bg-white-300 rounded lg:hidden text-white ml-auto hover:text-white outline-none' 
                 onClick={handleClick}
             >
                 {/* mobile hamburger icon */}
@@ -58,22 +58,22 @@ export default function Nav() {
                     </Link>
                     <Link href='/about'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        About
+                        Our Mission
                     </a>
                     </Link>
                     <Link href='/'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Nav Link
+                        News Room
                     </a>
                     </Link>
                     <Link href='/'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Nav Link
+                        Sustinable Connections
                     </a>
                     </Link>
                     <Link href='/'>
                     <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-purple-300 hover:text-black'>
-                        Nav Link
+                        About Us
                     </a>
                     </Link>
                 </div>
