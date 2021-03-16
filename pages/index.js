@@ -16,8 +16,6 @@ export default function Home() {
             <div className="mx-auto">
             <Image src="/sustainableada.png" alt="sustainable wheel" width={20} height={20} />
             </div>
-
-            
             <Image src="/cardanoSDGs.png" alt="sustainable wheel" width={500} height={500} />
             <div>
               <p className="text-center text-2xl">The Stepping Stones to a Sustainable & Equal World</p>
