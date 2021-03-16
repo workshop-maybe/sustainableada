@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 // Learn how to create this Nav:
@@ -13,12 +14,10 @@ export default function Nav() {
     };
 
     return (
-        <nav className='flex items-center flex-wrap bg-black-700 p-3 fixed w-full z-40'>
+        <nav className='flex items-center flex-wrap bg-gray-300 fixed w-full z-40'>
             <Link href='/'>
-            <a className='inline-flex items-center p-2 mr-4'>
-                <span className='text-xl text-black font-bold uppercase tracking-wide'>
-                Sustainable ADA
-                </span>
+            <a className='inline-flex items-center ml-3'>
+            <Image src="/SustainableADA.svg" alt="sustainable wheel" width={200} height={57} />
             </a>
             </Link>
             <button 
